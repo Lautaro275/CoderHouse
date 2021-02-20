@@ -2,9 +2,9 @@ const UNO = "Este es un"
 let dos = "algoritmo"
 var tres = "simple"
 
-var bandera = prompt("Ingrese un numero par")
+var par = prompt("Ingrese un numero par")
 
-if (bandera % 2 == 0) {
+if (par % 2 == 0) {
     console.log(UNO + " " + dos + " " + tres);
 }
 else {
